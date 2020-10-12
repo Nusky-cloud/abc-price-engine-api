@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: abc-price-engine-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/abc-price-engine
+    username: postgres
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+
+server:
+  port: 8080
