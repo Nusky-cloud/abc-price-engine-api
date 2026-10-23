@@ -28,9 +28,11 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
 - First, install [PostgreSQL](https://www.postgresql.org/download/windows/) and create a database with below mentioned details. Keep the password field empty.
 
-* database name : abc-price-engine
-* username : postgres
-* password : 
+```shell
+database name : abc-price-engine
+username : postgres
+password : 
+```
 
 - Secondly, clone this repository on your computer or download as a zip file.
 ```shell
